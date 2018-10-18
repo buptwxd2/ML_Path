@@ -14,4 +14,6 @@ To Do
 Kaggle 
 https://www.kaggle.com/
 
-
+## Linear Algebra
+MIT https://www.bilibili.com/video/av15463995  
+李宏毅 https://www.bilibili.com/video/av22727915?from=search&seid=8427486326617068898
