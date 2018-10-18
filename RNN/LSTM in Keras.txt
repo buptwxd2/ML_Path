@@ -1,0 +1,12 @@
+Keras中的LSTM的用法
+
+LSTM的input层的参数必须是三维的，必须是(batch_size, timesteps, features)
+
+batch_size是训练数据的数量，这里就是sequencde的数量
+timesteps是一个sequence的长度
+features是一个timestep的维度，即x<t>的维度
+
+model.add(LSTM(units, input_shape=(2,1)))
+units是一层LSTM中的神经元的个数，即hidden layer中的神经元的个数
+
+最后，LSTM中只有隐藏层，不包含输出层，即没有矩阵Wya,感觉这点看Andrew的视频非常费解，所以LSTM的输出是隐藏层的输出，即hidden layer value。
