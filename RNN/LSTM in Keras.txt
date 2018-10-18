@@ -10,3 +10,5 @@ model.add(LSTM(units, input_shape=(2,1)))
 units是一层LSTM中的神经元的个数，即hidden layer中的神经元的个数
 
 最后，LSTM中只有隐藏层，不包含输出层，即没有矩阵Wya,感觉这点看Andrew的视频非常费解，所以LSTM的输出是隐藏层的输出，即hidden layer value。
+
+可以回到之前的神经网络模型，复习下基本的隐藏层和输出层，以及激活层,activation function
