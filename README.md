@@ -5,7 +5,8 @@ This is to record my path heading to ML
 
 To Do  
 1. RNN and LSTM
-2. Residual Network
+2. Introduce LSTM by Li Hongyi here
+3. Residual Network
   
   2.linear algebra online course
       https://www.bilibili.com/video/av15463995/?p=1
