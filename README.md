@@ -24,5 +24,5 @@ MIT https://www.bilibili.com/video/av15463995
 
 # Conclustion
 1. Linear Regression vs Logistical Regression  
-  1. Linear Regression是真的回归问题，输出y是一个连续值
-  2. 而Logistical Regression其实是一个分类问题，参考Andrew关于logistical regression的介绍，而之所以名字中带有regression是由于历史原因，所以逻辑回归虽然名字中有回归二字，但其实质是分类问题
+    1. Linear Regression是真的回归问题，输出y是一个连续值
+    2. 而Logistical Regression其实是一个分类问题，参考Andrew关于logistical regression的介绍，而之所以名字中带有regression是由于历史原因，所以逻辑回归虽然名字中有回归二字，但其实质是分类问题
