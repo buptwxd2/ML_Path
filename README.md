@@ -8,6 +8,7 @@ To Do
 - [] Introduce LSTM by Li Hongyi here
 - [] Residual Network
 - [x] Linear regression VS Logistic Regress Activation Layer在Keras中的表示
+- [] Logistic Regression VS no-hidden NN without/with activation
   
   2.linear algebra online course
       https://www.bilibili.com/video/av15463995/?p=1
