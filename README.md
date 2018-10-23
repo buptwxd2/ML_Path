@@ -4,10 +4,10 @@ This is to record my path heading to ML
 
 
 To Do  
-1. RNN and LSTM
-2. Introduce LSTM by Li Hongyi here
-3. Residual Network
-4. Linear regression VS Logistic Regress Activation Layer在Keras中的表示
+- [] RNN and LSTM
+- [] Introduce LSTM by Li Hongyi here
+- [] Residual Network
+- [x] Linear regression VS Logistic Regress Activation Layer在Keras中的表示
   
   2.linear algebra online course
       https://www.bilibili.com/video/av15463995/?p=1
