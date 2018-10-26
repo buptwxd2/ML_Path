@@ -10,6 +10,7 @@ To Do
 - [x] Linear regression VS Logistic Regress Activation Layer在Keras中的表示
 - [] Logistic Regression VS no-hidden NN without/with activation
 - [] L1 regularization vs L2 Regularization
+- [] Keras中的linear actication与None activation是否一致，如果一致，为啥不同线性层的叠加效果会好很多，多个线性层的叠加不应该等效成一个线性层呢
   
   2.linear algebra online course
       https://www.bilibili.com/video/av15463995/?p=1
