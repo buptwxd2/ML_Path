@@ -1,14 +1,3 @@
-1.# conda env list
-
-2.activate env
-# activate ml
-
-3.
-
-
-1. conda create -n ml
-
-
 参考
 https://medium.com/@margaretmz/anaconda-jupyter-notebook-tensorflow-and-keras-b91f381405f8
 
