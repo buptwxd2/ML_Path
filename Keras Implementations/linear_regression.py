@@ -36,11 +36,12 @@ print (df.head())
 # Let's create the model
 model = Sequential()
 # model.add(Dense(1, activation='linear', input_shape=(train_data.shape[1],)))
-dense_layer = Dense(10, activation=None, input_shape=(train_data.shape[1],))
+dense_layer = Dense(100, activation='relu', input_shape=(train_data.shape[1],))
 model.add(dense_layer)
-model.add(Dense(10, activation=None, input_shape=(train_data.shape[1],)))
-model.add(Dense(10, activation=None, input_shape=(train_data.shape[1],)))
-model.add(Dense(1, activation=None, input_shape=(train_data.shape[1],)))
+model.add(Dense(100, activation='relu'))
+model.add(Dense(100, activation='relu'))
+model.add(Dense(10, activation='relu'))
+model.add(Dense(1, activation=None))
 
 optimizer = tf.train.RMSPropOptimizer(0.001)
 
@@ -61,13 +62,20 @@ def plot_history(history):
 
 
 history = model.fit(train_data, train_labels, epochs=100, batch_size=50, shuffle=False)
+# history.history is a record of training loss values and metrics values at successive epochs
+
+plt.plot(history.history['loss'])
+plt.plot(history.history['mean_absolute_error'])
+plt.show()
 
 # Perform on test data
-# [loss, mae]  = model.evaluate(test_data, test_labels, verbose=1)
-#
-# predict_labels = model.predict(test_data)
-#
-# plt.plot(test_labels)
-# plt.plot(predict_labels)
+[loss, mae] = model.evaluate(test_data, test_labels, verbose=1)
+print (loss, mae)
+
+predict_labels = model.predict(test_data)
+
+plt.plot(test_labels)
+plt.plot(predict_labels)
+plt.show()
 
 
